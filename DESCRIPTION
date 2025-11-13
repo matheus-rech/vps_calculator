@@ -1,0 +1,10 @@
+Title: VPS Calculator
+Type: shiny
+Author: VPS Calculator Team
+DisplayMode: Showcase
+License: MIT
+Depends:
+  R (>= 3.5.0)
+Imports:
+  shiny (>= 1.7.0),
+  shinydashboard (>= 0.7.0)

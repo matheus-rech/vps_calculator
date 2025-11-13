@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  vps-calculator:
+    build: .
+    container_name: vps-calculator-app
+    ports:
+      - "3838:3838"
+    restart: unless-stopped
+    volumes:
+      # Mount for easier development (optional)
+      # - ./app.R:/srv/shiny-server/app.R
+      # - ./www:/srv/shiny-server/www
+      # - ./data:/srv/shiny-server/data
+      # - ./R:/srv/shiny-server/R
+    environment:
+      - SHINY_LOG_LEVEL=INFO
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3838/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
