@@ -1,0 +1,8 @@
+# Sample pricing data for VPS configurations
+# This file demonstrates how data files can be stored
+
+Region,CPU_Price_Per_Core,RAM_Price_Per_GB,Storage_Price_Per_GB,Bandwidth_Price_Per_TB,Multiplier
+US East,10,5,0.10,2,1.0
+US West,10,5,0.10,2,1.1
+Europe,10,5,0.10,2,1.15
+Asia Pacific,10,5,0.10,2,1.2

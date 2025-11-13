@@ -1,0 +1,31 @@
+# Git files
+.git
+.gitignore
+
+# Documentation
+*.md
+!README.md
+
+# RStudio files
+.Rproj.user
+*.Rproj
+
+# R history and workspace
+.Rhistory
+.RData
+.Ruserdata
+
+# Packrat/renv
+packrat/
+renv/
+
+# rsconnect deployment records
+rsconnect/
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

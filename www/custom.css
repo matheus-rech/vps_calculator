@@ -1,0 +1,32 @@
+/* Custom CSS for VPS Calculator Shiny App */
+
+/* Custom styling can be added here */
+
+.box.box-solid.box-primary > .box-header {
+  background: #3c8dbc;
+  color: #fff;
+}
+
+.box.box-solid.box-success > .box-header {
+  background: #00a65a;
+  color: #fff;
+}
+
+.box.box-solid.box-info > .box-header {
+  background: #00c0ef;
+  color: #fff;
+}
+
+/* Make cost display more prominent */
+.box-success h3, .box-success h4 {
+  font-weight: bold;
+  color: #00a65a;
+}
+
+/* Style the configuration summary */
+.box-success pre {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}
